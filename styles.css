@@ -3,10 +3,9 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -49,6 +48,10 @@ main {
   padding: 5rem 1rem;
   text-align: center;
   color: #fff;
+  flex-grow: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 h1, h2 {
@@ -60,19 +63,19 @@ p, ul {
 }
 
 /* Page-specific background images */
-#index {
+#index main {
   background-image: url("background.jpg");
 }
 
-#ai-games {
+#ai-games main {
   background-image: url("background.jpg");
 }
 
-#ai-projects {
+#ai-projects main {
   background-image: url("background.jpg");
 }
 
-#contact-us {
+#contact-us main {
   background-image: url("background.jpg");
 }
 
