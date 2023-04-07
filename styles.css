@@ -61,19 +61,19 @@ p, ul {
 
 /* Page-specific background images */
 #index {
-  background-image: url("background-index.jpg");
+  background-image: url("background.jpg");
 }
 
 #ai-games {
-  background-image: url("background-ai-games.jpg");
+  background-image: url("background.jpg");
 }
 
 #ai-projects {
-  background-image: url("background-ai-projects.jpg");
+  background-image: url("background.jpg");
 }
 
 #contact-us {
-  background-image: url("background-contact-us.jpg");
+  background-image: url("background.jpg");
 }
 
 /* Contact form styles */
