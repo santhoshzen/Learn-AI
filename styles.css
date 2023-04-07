@@ -6,6 +6,8 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  color: #fff;
+  background-color: #333; /* Fallback background color */
 }
 
 header {
@@ -47,11 +49,7 @@ main {
   height: 100%;
   padding: 5rem 1rem;
   text-align: center;
-  color: #fff;
   flex-grow: 1;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 h1, h2 {
@@ -64,19 +62,26 @@ p, ul {
 
 /* Page-specific background images */
 #index main {
-  background-image: url("background.jpg");
+  background-image: url("background-index.jpg");
 }
 
 #ai-games main {
-  background-image: url("background.jpg");
+  background-image: url("background-ai-games.jpg");
 }
 
 #ai-projects main {
-  background-image: url("background.jpg");
+  background-image: url("background-ai-projects.jpg");
 }
 
 #contact-us main {
-  background-image: url("background.jpg");
+  background-image: url("background-contact-us.jpg");
+}
+
+/* Apply background properties to main */
+main {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* Contact form styles */
