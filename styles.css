@@ -62,19 +62,19 @@ p, ul {
 
 /* Page-specific background images */
 #index main {
-  background-image: url("background-index.jpg");
+  background-image: url("images/background-index.jpg");
 }
 
 #ai-games main {
-  background-image: url("background-ai-games.jpg");
+  background-image: url("images/background-ai-games.jpg");
 }
 
 #ai-projects main {
-  background-image: url("background-ai-projects.jpg");
+  background-image: url("images/background-ai-projects.jpg");
 }
 
 #contact-us main {
-  background-image: url("background-contact-us.jpg");
+  background-image: url("images/background-contact-us.jpg");
 }
 
 /* Apply background properties to main */
