@@ -117,3 +117,26 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #ccc;
 }
+
+/* AI Games and AI Projects styles */
+.project, .game {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.project:nth-child(even), .game:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.project-img, .game-img {
+  width: 200px;
+  height: auto;
+  margin: 0 2rem;
+}
+
+.project-description, .game-description {
+  max-width: 400px;
+}
+
